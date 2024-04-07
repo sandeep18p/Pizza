@@ -1,0 +1,742 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+   
+    color: aliceblue;
+    /* font-family: "Quattrocento", serif; */
+}
+html{
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    font-family: "Ruda";
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+}
+li{
+    margin: 2.2vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.3vw;
+}
+
+
+.yo li a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-family: "Ruda";
+}
+
+.hone{
+    margin-top: 0px;
+    font-size: 2vw;
+}
+
+header{
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 2%;
+    display: flex;
+  
+    justify-content: space-between;
+    align-items: center;
+    height: 11vh;
+   
+}
+
+a{
+ margin: 1vw;
+ margin-top: auto;
+ margin-bottom: auto;
+}
+a img{
+    height: 1.3vw;
+}
+.pg{
+    width: 100%;
+    height: auto;
+}
+.pg img{
+    width: 90%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* //main cintent */
+
+.main-content {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    
+}
+  
+
+.containerthree{
+    width: 100%;
+}
+
+
+
+
+.main-content {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+
+.containertwo img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+    filter: brightness(70%);
+ }
+ .containertwo{
+     padding: 0px;
+     margin: 0px;
+ }
+
+
+ .image-text .heading{
+    font-weight: bold;
+    letter-spacing: 0.17em; 
+    display: inline-block; 
+  
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    line-height: 1.1899;
+    width: 40vw;
+    font-size: 3.8vw;
+
+    display: inline-block; 
+     
+
+}
+
+.image-text {
+    font-family: "Quattrocento", serif; 
+    width: 20vw;
+   
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 1;
+   
+}
+.image-text p{
+    font-family: "Ruda";
+    text-align: justify;
+    display: inline-block;
+    width: 28vw;
+    font-size: 1.3vw; 
+    margin: 0%;
+    
+}
+.yolo{
+    position: relative;
+    margin: 0%;
+    border: none;
+    width: 26.5vw;
+    height: 1.7vh; 
+    margin-bottom: 1.5rem;
+    background-color: rgb(255, 24, 24);
+}
+
+
+
+
+/* container threee */
+
+.containerthree{
+    background-color: black;
+    box-sizing: border-box;
+    color: white;  
+    margin: 0px;
+    padding: 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerthree h1{
+    top: 10%;
+    left: 50%;
+    margin-top: 40px;
+    /* padding: 20px;  */
+}
+
+.jolly{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin: 0vh 10vw; */
+    /* margin: 0vh 5vw; Adjusted margin for smaller screens */
+   
+    margin-top: 5px;
+    width: 90%;
+    padding:30px;
+}
+
+.c3heading{
+    font-size: 3.6vw;
+    font-family: "Quattrocento", serif; 
+}
+.jollydiv{
+    /* margin-right: 100px;
+    margin-left: 0px; */
+    width: 50%;
+    height: auto;
+    /* margin-right: 20px;  */
+    padding: 30px;
+    
+    margin-left: 0px;
+}
+
+.jollydiv .yolo{
+    width: 20vw;
+}
+.jollydiv p{
+    padding-right: 30px;
+    font-size: 1.79vw; 
+    font-family: "Ruda";
+    
+
+}
+
+.jollyimg{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.jollyimg img{
+    border-radius: 35px;
+    margin: auto;
+    padding: 30px;
+   width: 100%;
+   object-fit: contain;
+}
+
+.containerfour{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.containerfour div{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    font-family: "Quattrocento", serif; 
+    font-size: 3.6vw;
+}
+
+.giga{
+    font-family: "Ruda";
+    font-size: 1.79vw; 
+    padding-left: 10%;
+    padding-right: 10%;
+   
+    width: 100%;
+}
+
+.car{
+    background-color: black;
+    height: 120vh;
+}
+.carH{
+    display: block;
+    text-align: center;
+    font-family: "Quattrocento", serif; 
+    font-size: 3.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.carH .yolo{
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* MENU */
+.sectioG{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.gridone{
+    /* box-sizing: border-box; */
+    height: 100%;
+    width:90%;
+    background-color: black;
+    color: white;;
+    display: grid;
+    padding: 3.0rem;
+    row-gap: 1rem;
+    column-gap: 2rem;
+    grid-template-rows: repeat(3,1fr); 
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center;    */
+}
+
+.second h2{
+    font-size: 1.79vw; 
+    color: rgba(242, 201, 76, 1);
+}
+.item{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    /* padding-right: 10%; */
+   
+}
+
+
+.ingrid {
+    width: 100%;
+    /* height: 200px;  */
+  
+    /* margin-right: 10px; */
+   
+}
+
+.ingrid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center;
+    border-radius: 4px;
+}
+
+.second{
+    font-size: 1.2vw; 
+    padding-right: 5%;
+    padding-left: 3%;
+    border: 1px saddlebrown;
+}
+
+/* multi grid */
+
+.og {
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 120vh;
+}
+
+.og .htwo {
+    font-family: "Quattrocento", serif; 
+    font-size: 3.6vw;
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    
+}
+
+.og hr {
+    width: 26.5vw;
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 80vw; /* Make the grid container full width */
+    height: 80vh; /* Make the grid container full height */
+    margin: auto;
+
+}
+
+.div1 { grid-area: 1 / 1 / 7 / 3; border-radius: 20px ;  overflow: hidden;  }
+        .div2 { grid-area: 1 / 3 / 3 / 5; border-radius: 20px ;  overflow: hidden;  }
+        .div3 { grid-area: 3 / 3 / 5 / 5; border-radius: 20px ; overflow: hidden; }
+        .div4 { grid-area: 5 / 3 / 7 / 5; border-radius: 20px; overflow: hidden; }
+        .div5 { grid-area: 1 / 5 / 4 / 7; border-radius: 20px; overflow: hidden; }
+        .div6 { grid-area: 4 / 5 / 7 / 7; border-radius:  20px ; overflow: hidden; }
+
+        .div1 img,
+    .div2 img,
+    .div3 img,
+    .div4 img,
+    .div5 img,
+    .div6 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    /* last section */
+.cow{
+    background-color: black;
+}
+    .fifa{
+        color: white;
+        background-color: black;
+        
+    }
+
+    .fifa .lh{
+       text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Quattrocento", serif; 
+        font-size: 3.6vw;
+        color: white;
+    }
+    
+    .fifa hr{
+        margin: 20px auto;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .hola{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        margin: 10px;
+        margin-bottom: 0%;
+        /* width: 80vh; */
+    }
+    .rola1{
+        width: 50vw;
+        height: auto;
+        padding: 50px;
+        padding-left: 6.4rem;
+        font-family: "Ruda";
+        font-size: 1.5vw; 
+    }
+    .rola2{
+        padding: 50px;
+        width: 50vw;
+       
+        
+    }
+    .rola2 img{
+        width: 87%;
+    }
+    .im1{
+        height: 4vw;
+        width: 4vw;
+        margin-right: 40px;
+    }
+
+    .f1{
+        /* margin-top: 20px; */
+        margin-left: 120px ;
+        margin-bottom: 20px;
+        border-radius: 50%;
+       
+        
+    }
+    .footabove{
+        font-size: 1vw;
+    }
+    .f1 img{
+        width: 8vw;
+        height: 8vw;
+        margin: 20px;
+    }
+    .f2{
+        padding-left:2vw;
+        padding-right: 17vw;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.3vw;
+    }
+
+    .mar{
+        margin-bottom: 20px;
+    }
+    .last div span img{
+        width: 4vw;
+        height: 4vw;
+        margin-right: 30px;
+    }
+    .phone{
+        display: flex;
+    }
+  footer{
+    margin: 0%;
+    padding: 0%;
+
+    background-color: black;
+  }
+
+
+  @media screen and (max-width: 749px) {
+   
+    .hone{
+        font-size: 20px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 20vh;
+    }
+    ul{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    ul li{
+       
+     font-size: 12px;
+    }
+    .hero a img{
+    
+            height: 12px;
+            margin-top: 10px;
+        
+    }
+
+    /*  */
+    .image-text .heading{
+        font-weight: bold;
+        letter-spacing: 0.17em; 
+        display: inline-block; 
+      
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        line-height: 1.1899;
+        width: 40vw;
+        font-size: 4.5vw;
+    
+        display: inline-block; 
+         
+    
+    }
+    
+    .image-text {
+        font-family: "Quattrocento", serif; 
+        width: 40vw;
+       
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        z-index: 1;
+       
+    }
+    .image-text p{
+        font-family: "Ruda";
+        text-align: justify;
+        display: inline-block;
+        width: 28vw;
+        font-size: 1.7vw; 
+        margin: 0%;
+        
+    }
+    /*  */
+    .jolly{
+        flex-direction: column;
+    }
+    .jollyimg{
+        width: 100%;
+        order:1;
+    }
+    .jollydiv{
+        width: 100%;
+        order: 2;
+    }    
+    .jollydiv hr{
+        display: none;
+    }
+
+    /*  */
+    .gridone{
+        /* box-sizing: border-box; */
+        height: 100%;
+        width:90%;
+        background-color: black;
+        color: white;;
+        display: grid;
+        padding: 3.0rem;
+        row-gap: 1rem;
+        column-gap: 2rem;
+        grid-template-rows: repeat(6,1fr); 
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center;    */
+    }
+
+    .second h2{
+        font-size: 4.0vw; 
+        color: rgba(242, 201, 76, 1);
+    }
+    .second p{
+        font-size: 2.2vw; 
+    }
+
+    /*  */
+    .hola{
+        flex-direction: column;
+    }
+    .rola1{
+        order:2;
+        width: 100%;
+        margin-left: -20px;
+        
+    }
+    
+    .rola2{
+        
+     width: 100%;
+     order:1;
+    
+    }
+    .rola2 img{
+        
+        
+        
+        /* padding-left: 40px; */
+        margin-left: 32px;
+        margin-right: auto;
+    }
+    
+    .footabove{
+        font-size: 2.8vw;
+    }
+    .mar{
+        font-size: 2.6vw; 
+    
+    }
+
+    .f2{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .f1 img{
+        width: 20vh;
+        height: 20vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .phone{
+        margin-left: 100px;
+    }
+
+    
+
+    .last div span img{
+        margin-right: 5px;
+    }
+    
+    .rola1 div p{
+        font-size: 3vw;   
+    }
+    
+    .jollydiv p{
+        font-size: 3vw;   
+    }
+    .giga p{
+        font-size: 3vw;   
+    }
+
+    .c3heading{
+        font-size: 6vw;  
+    }
+    .menu{
+        font-size: 6.1vw;  
+    }
+    .carH div{
+        font-size: 6.1vw;
+    }
+    .og .htwo {
+        font-size: 6.1vw;
+    }
+    .fifa .lh{
+        font-size: 6.1vw;
+    }
+
+    .f1 img{
+        width: 20vh;
+        height: 20vh;
+        margin-left: -27%;
+        /* margin-right: auto; */
+    }
+
+    .yo li a {
+        text-decoration: none;
+        font-size: 14px;
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        font-family: "Ruda";
+    }
+
+  }
+
+  @media screen and (max-width: 522px) {
+    
+    .yo li a {
+        text-decoration: none;
+        font-size: 11px;
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        font-family: "Ruda";
+    }
+
+  }
+
+  
+  @media screen and (max-width: 447px) {
+    
+    .yo li a {
+        text-decoration: none;
+        font-size: 8px;
+        color: white;
+        margin: 0%;
+        padding: 0%;
+        font-family: "Ruda";
+    }
+
+  }
